@@ -2675,8 +2675,98 @@
     "Mage_Core_Model_Message_Warning": {
         "m2class": "\\Magento\\Framework\\Message\\Warning"
     },
+    "Mage_Core_Model_Mysql4_Abstract": {
+        "m2class": "\\Magento\\Framework\\Model\\ResourceModel\\Db\\AbstractDb"
+    },
+    "Mage_Core_Model_Mysql4_Config": {
+        "m2class": "\\Magento\\Config\\Model\\ResourceModel\\Config"
+    },
+    "Mage_Core_Model_Mysql4_Design": {
+        "m2class": "\\Magento\\Theme\\Model\\ResourceModel\\Design"
+    },
+    "Mage_Core_Model_Mysql4_Flag": {
+        "m2class": "\\Magento\\Framework\\Flag\\FlagResource"
+    },
+    "Mage_Core_Model_Mysql4_Iterator": {
+        "m2class": "\\Magento\\Framework\\Model\\ResourceModel\\Iterator"
+    },
+    "Mage_Core_Model_Mysql4_Resource": {
+        "m2class": "\\Magento\\Framework\\Module\\ModuleResource"
+    },
+    "Mage_Core_Model_Mysql4_Session": {
+        "m2class": "\\Magento\\Framework\\Session\\SaveHandler\\DbTable"
+    },
+    "Mage_Core_Model_Mysql4_Store": {
+        "m2class": "\\Magento\\Store\\Model\\ResourceModel\\Store"
+    },
+    "Mage_Core_Model_Mysql4_Transaction": {
+        "m2class": "\\Magento\\Framework\\DB\\Transaction"
+    },
+    "Mage_Core_Model_Mysql4_Translate": {
+        "m2class": "\\Magento\\Translation\\Model\\ResourceModel\\Translate"
+    },
+    "Mage_Core_Model_Mysql4_Variable": {
+        "m2class": "\\Magento\\Variable\\Model\\ResourceModel\\Variable"
+    },
+    "Mage_Core_Model_Mysql4_Website": {
+        "m2class": "\\Magento\\Store\\Model\\ResourceModel\\Website"
+    },
+    "Mage_Core_Model_Mysql4_Db_Abstract": {
+        "m2class": "\\Magento\\Framework\\Model\\ResourceModel\\Db\\AbstractDb"
+    },
+    "Mage_Core_Model_Mysql4_Collection_Abstract": {
+        "m2class": "\\Magento\\Framework\\Model\\ResourceModel\\Db\\Collection\\AbstractCollection"
+    },
+    "Mage_Core_Model_Mysql4_Design_Collection": {
+        "m2class": "\\Magento\\Theme\\Model\\ResourceModel\\Design\\Collection"
+    },
+    "Mage_Core_Model_Mysql4_Email_Template": {
+        "m2class": "\\Magento\\Email\\Model\\ResourceModel\\Template"
+    },
+    "Mage_Core_Model_Mysql4_Email_Template_Collection": {
+        "m2class": "\\Magento\\Email\\Model\\ResourceModel\\Template\\Collection"
+    },
+    "Mage_Core_Model_Mysql4_Entity_Abstract": {
+        "m2class": "\\Magento\\Framework\\Model\\ResourceModel\\Entity\\AbstractEntity"
+    },
+    "Mage_Core_Model_Mysql4_Entity_Table": {
+        "m2class": "\\Magento\\Framework\\Model\\ResourceModel\\Entity\\Table"
+    },
+    "Mage_Core_Model_Mysql4_Helper_Abstract": {
+        "m2class": "\\Magento\\Framework\\DB\\Helper\\AbstractHelper"
+    },
+    "Mage_Core_Model_Mysql4_Store_Collection": {
+        "m2class": "\\Magento\\Store\\Model\\ResourceModel\\Store\\Collection"
+    },
+    "Mage_Core_Model_Mysql4_Store_Group": {
+        "m2class": "\\Magento\\Store\\Model\\ResourceModel\\Group"
+    },
+    "Mage_Core_Model_Mysql4_Store_Group_Collection": {
+        "m2class": "\\Magento\\Store\\Model\\ResourceModel\\Group\\Collection"
+    },
+    "Mage_Core_Model_Mysql4_Translate_String": {
+        "m2class": "\\Magento\\Translation\\Model\\ResourceModel\\StringUtils"
+    },
+    "Mage_Core_Model_Mysql4_Type_Abstract": {
+        "m2class": "\\Magento\\Framework\\Model\\ResourceModel\\Type\\AbstractType"
+    },
+    "Mage_Core_Model_Mysql4_Type_Db": {
+        "m2class": "\\Magento\\Framework\\Model\\ModelResource\\Type\\Db"
+    },
+    "Mage_Core_Model_Mysql4_Url_Rewrite": {
+        "m2class": "\\Magento\\UrlRewrite\\Model\\ResourceModel\\UrlRewrite"
+    },
+    "Mage_Core_Model_Mysql4_Url_Rewrite_Collection": {
+        "m2class": "\\Magento\\UrlRewrite\\Model\\ResourceModel\\UrlRewriteCollection"
+    },
+    "Mage_Core_Model_Mysql4_Variable_Collection": {
+        "m2class": "\\Magento\\Variable\\Model\\ResourceModel\\Variable\\Collection"
+    },
+    "Mage_Core_Model_Mysql4_Website_Collection": {
+        "m2class": "\\Magento\\Store\\Model\\ResourceModel\\Website\\Collection"
+    },
     "Mage_Core_Model_Resource_Abstract": {
-        "m2class": "\\Magento\\Framework\\Model\\ModelResource\\AbstractResource"
+        "m2class": "\\Magento\\Framework\\Model\\ResourceModel\\AbstractResource"
     },
     "Mage_Core_Model_Resource_Config": {
         "m2class": "\\Magento\\Config\\Model\\ResourceModel\\Config"
@@ -2688,7 +2778,7 @@
         "m2class": "\\Magento\\Framework\\Flag\\FlagResource"
     },
     "Mage_Core_Model_Resource_Iterator": {
-        "m2class": "\\Magento\\Framework\\Model\\ModelResource\\Iterator"
+        "m2class": "\\Magento\\Framework\\Model\\ResourceModel\\Iterator"
     },
     "Mage_Core_Model_Resource_Resource": {
         "m2class": "\\Magento\\Framework\\Module\\ModuleResource"
@@ -2712,10 +2802,10 @@
         "m2class": "\\Magento\\Store\\Model\\ResourceModel\\Website"
     },
     "Mage_Core_Model_Resource_Db_Abstract": {
-        "m2class": "\\Magento\\Framework\\Model\\ModelResource\\Db\\AbstractDb"
+        "m2class": "\\Magento\\Framework\\Model\\ResourceModel\\Db\\AbstractDb"
     },
     "Mage_Core_Model_Resource_Db_Collection_Abstract": {
-        "m2class": "\\Magento\\Framework\\Model\\ModelResource\\Db\\Collection\\AbstractCollection"
+        "m2class": "\\Magento\\Framework\\Model\\ResourceModel\\Db\\Collection\\AbstractCollection"
     },
     "Mage_Core_Model_Resource_Design_Collection": {
         "m2class": "\\Magento\\Theme\\Model\\ResourceModel\\Design\\Collection"
@@ -2727,10 +2817,10 @@
         "m2class": "\\Magento\\Email\\Model\\ResourceModel\\Template\\Collection"
     },
     "Mage_Core_Model_Resource_Entity_Abstract": {
-        "m2class": "\\Magento\\Framework\\Model\\ModelResource\\Entity\\AbstractEntity"
+        "m2class": "\\Magento\\Framework\\Model\\ResourceModel\\Entity\\AbstractEntity"
     },
     "Mage_Core_Model_Resource_Entity_Table": {
-        "m2class": "\\Magento\\Framework\\Model\\ModelResource\\Entity\\Table"
+        "m2class": "\\Magento\\Framework\\Model\\ResourceModel\\Entity\\Table"
     },
     "Mage_Core_Model_Resource_Helper_Abstract": {
         "m2class": "\\Magento\\Framework\\DB\\Helper\\AbstractHelper"
@@ -2748,7 +2838,7 @@
         "m2class": "\\Magento\\Translation\\Model\\ResourceModel\\StringUtils"
     },
     "Mage_Core_Model_Resource_Type_Abstract": {
-        "m2class": "\\Magento\\Framework\\Model\\ModelResource\\Type\\AbstractType"
+        "m2class": "\\Magento\\Framework\\Model\\ResourceModel\\Type\\AbstractType"
     },
     "Mage_Core_Model_Resource_Type_Db": {
         "m2class": "\\Magento\\Framework\\Model\\ModelResource\\Type\\Db"
